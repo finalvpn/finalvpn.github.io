@@ -1,3 +1,4 @@
+http://178.79.170.78:2020/app/v1
 http://51.195.216.174:2020/app/v1
 http://api.netsaver.top/app/v1/
 http://api.finalvpn.online/app/v1
