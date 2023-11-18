@@ -1,3 +1,2 @@
 http://135.181.38.6/app/v1
-https://app.myfinalappspace.online/app/v1
 http://185.231.113.90:8811/app/v1
