@@ -1,2 +1,2 @@
-http://185.231.113.7:8811/app/v1
+http://185.231.113.50:8811/app/v1
 https://app.kallber.com/app/v1
