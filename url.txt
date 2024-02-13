@@ -1,1 +1,2 @@
+http://185.231.113.50:18882/app/v1
 https://app.touristviews724.com/app/v1
