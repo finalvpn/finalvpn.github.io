@@ -1,3 +1,2 @@
-http://85.133.153.81:5088/app/v1
 https://app.touristviews724.com/app/v1
 https://app.netsaver.top/app/v1
