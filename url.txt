@@ -1,3 +1,3 @@
 https://app.touristviews724.com/app/v1
-https://app.netsaver.top/app/v1
-http://apir.netsaver.top:5088/app/v1
+https://appcf.touristviews724.com/app/v1
+http://appir.touristviews724.com:88/app/v1
