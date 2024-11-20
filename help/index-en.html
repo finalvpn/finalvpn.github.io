@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function isWebview() {
+            const navigator = window.navigator
+            const userAgent = navigator.userAgent
+            const normalizedUserAgent = userAgent.toLowerCase()
+            const standalone = navigator.standalone
+
+            const isIos =
+                /ip(ad|hone|od)/.test(normalizedUserAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
+            const isAndroid = /android/.test(normalizedUserAgent)
+            const isSafari = /safari/.test(normalizedUserAgent)
+            const isWebview = (isAndroid && /; wv\)/.test(normalizedUserAgent)) || (isIos && !standalone && !isSafari)
+
+            return isWebview
+        }
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        if (!isWebview()) {
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/6673dd5319f6c616eadc2f98/1i0q9h47q';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        }
+    </script>
+    <!--End of Tawk.to Script-->
+</head>
+<body>
+    <main>
+        <h1 class="faq-heading">سوالات متداول</h1>
+        <section class="faq-parswp">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h1 class="faq-page">How to Choose a location</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+To choose a location, you have to first subscribed. Tap on the country flag and a location list will be shown. Select one by tapping it.
+                </div>
+            </div>
+            <hr class="hr-line">
+
+        </section>
+    </main>
+    <div id="chaticon2" style="display: none; position: fixed; right: 0; bottom: 0; padding: 15px">
+        <a href="https://finalvpn.github.io/help?open" >
+            <img style="border: 0;" src="../images/live-chat.png" alt="Live Chat" width="80">
+        </a>
+    </div>
+    <script src="main.js"></script>
+<script>
+    if (isWebview()){
+        setTimeout(function() {
+        //    document.getElementById('chaticon2').style.display=''
+        }, 1000)
+    }
+</script>
+</body>
+<footer>
+ </footer>
+</html>
