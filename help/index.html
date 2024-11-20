@@ -5,19 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> سوالات متداول فیلترشکن فاینال وی پی ان</title>
-    <link href="ttps://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function isWebview() {
+            const navigator = window.navigator
+            const userAgent = navigator.userAgent
+            const normalizedUserAgent = userAgent.toLowerCase()
+            const standalone = navigator.standalone
+
+            const isIos =
+                /ip(ad|hone|od)/.test(normalizedUserAgent) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
+            const isAndroid = /android/.test(normalizedUserAgent)
+            const isSafari = /safari/.test(normalizedUserAgent)
+            const isWebview = (isAndroid && /; wv\)/.test(normalizedUserAgent)) || (isIos && !standalone && !isSafari)
+
+            return isWebview
+        }
+    </script>
+
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/6673dd5319f6c616eadc2f98/1i0q9h47q';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-        })();
+        if (!isWebview()) {
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/6673dd5319f6c616eadc2f98/1i0q9h47q';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        }else{
+            document.getElementById('chaticon2').style.display='';
+        }
     </script>
     <!--End of Tawk.to Script-->
 </head>
@@ -99,6 +120,11 @@ https://finalvpn.github.io
             </div>
         </section>
     </main>
+    <div id="chaticon2" style="display: none; position: fixed; right: 0; bottom: 0; padding: 10px">
+        <a href="." target="_blank">
+            <img style="border: 0" src="/images/live-chat1.png" alt="Live Chat">
+        </a>
+    </div>
     <script src="main.js"></script>
 </body>
 <footer>
