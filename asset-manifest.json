@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "./static/css/main.1bf50a5f.chunk.css",
-    "main.js": "./static/js/main.f3d85b75.chunk.js",
+    "main.js": "./static/js/main.7f565c17.chunk.js",
     "runtime-main.js": "./static/js/runtime-main.948f7d3e.js",
-    "static/js/2.13c157bb.chunk.js": "./static/js/2.13c157bb.chunk.js",
+    "static/js/2.33ca227c.chunk.js": "./static/js/2.33ca227c.chunk.js",
     "index.html": "./index.html",
-    "precache-manifest.ba33750f5af7e3b78be09dc5f105e2f0.js": "./precache-manifest.ba33750f5af7e3b78be09dc5f105e2f0.js",
+    "precache-manifest.ea9e5f7e093df926512b16f5009b40fa.js": "./precache-manifest.ea9e5f7e093df926512b16f5009b40fa.js",
     "service-worker.js": "./service-worker.js",
-    "static/js/2.13c157bb.chunk.js.LICENSE.txt": "./static/js/2.13c157bb.chunk.js.LICENSE.txt",
+    "static/js/2.33ca227c.chunk.js.LICENSE.txt": "./static/js/2.33ca227c.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/IRANSans(FaNum).e7fd32eb.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.948f7d3e.js",
-    "static/js/2.13c157bb.chunk.js",
+    "static/js/2.33ca227c.chunk.js",
     "static/css/main.1bf50a5f.chunk.css",
-    "static/js/main.f3d85b75.chunk.js"
+    "static/js/main.7f565c17.chunk.js"
   ]
 }
