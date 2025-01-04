@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.00a89fcb.chunk.css",
-    "main.js": "./static/js/main.2fa1081d.chunk.js",
-    "main.js.map": "./static/js/main.2fa1081d.chunk.js.map",
+    "main.css": "./static/css/main.1bf50a5f.chunk.css",
+    "main.js": "./static/js/main.f3d85b75.chunk.js",
     "runtime-main.js": "./static/js/runtime-main.948f7d3e.js",
-    "runtime-main.js.map": "./static/js/runtime-main.948f7d3e.js.map",
-    "static/js/2.24d37a8d.chunk.js": "./static/js/2.24d37a8d.chunk.js",
-    "static/js/2.24d37a8d.chunk.js.map": "./static/js/2.24d37a8d.chunk.js.map",
+    "static/js/2.13c157bb.chunk.js": "./static/js/2.13c157bb.chunk.js",
     "index.html": "./index.html",
-    "precache-manifest.800d57b20106889279d86679d4c43a2f.js": "./precache-manifest.800d57b20106889279d86679d4c43a2f.js",
+    "precache-manifest.ba33750f5af7e3b78be09dc5f105e2f0.js": "./precache-manifest.ba33750f5af7e3b78be09dc5f105e2f0.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.00a89fcb.chunk.css.map": "./static/css/main.00a89fcb.chunk.css.map",
-    "static/js/2.24d37a8d.chunk.js.LICENSE.txt": "./static/js/2.24d37a8d.chunk.js.LICENSE.txt",
+    "static/js/2.13c157bb.chunk.js.LICENSE.txt": "./static/js/2.13c157bb.chunk.js.LICENSE.txt",
     "static/media/index.css": "./static/media/IRANSans(FaNum).e7fd32eb.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.948f7d3e.js",
-    "static/js/2.24d37a8d.chunk.js",
-    "static/css/main.00a89fcb.chunk.css",
-    "static/js/main.2fa1081d.chunk.js"
+    "static/js/2.13c157bb.chunk.js",
+    "static/css/main.1bf50a5f.chunk.css",
+    "static/js/main.f3d85b75.chunk.js"
   ]
 }
