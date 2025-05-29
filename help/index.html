@@ -22,12 +22,18 @@
 
             return isWebview
         }
+
+
+            const params = new URLSearchParams(window.location.search);
+            window.hidechat = (isWebview() || params.has("nochat"))
+       </script>
+
     </script>
 
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        if (!isWebview()) {
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        if (!window.hidechat) {
             (function () {
                 var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
                 s1.async = true;
@@ -125,6 +131,8 @@ https://finalvpn.github.io
                     <P>فاینال وی پی ان دو نوع اشتراک تک دستگاهی و چند دستگاهی داره. موقع خرید اگر چنددستگاهی رو انتخاب کنی و اشتراک تهیه کنی جلوی نقطه سبز سه تا ستاره نشون میده که به معنی ۳ دستگاهی هست. برای استفاده از این اشتراک روی دستگاه های دیگه ات باید روی دستگاه جدید دکمه لینک رو بزنی و ایمیلت رو که موقع خرید استفاده کردی وارد کنی. یه کد تایید برات ارسال میشه که ممکنه گاهی توی فولدر اسپم بره. بعد از لینک شدن ایمیل دستگاه فعال میشه و میتونی استفاده کنی.</p>
                 </div>
             </div>
+            <hr class="hr-line">
+
             <div class="faq-seven">
                 <!-- faq question -->
                 <h1 class="faq-page">من فکر میکنم حجمی که خریدم زود تموم میشه. چرا؟</h1>
@@ -142,10 +150,16 @@ https://finalvpn.github.io
     </div>
     <script src="main.js"></script>
 <script>
+    if (params.has("nochat"))
+        document.getElementById('chaticon2').style.display='none'
+
     if (isWebview()){
-        setTimeout(function() {
+         setTimeout(function() {
             document.getElementById('chaticon2').style.display=''
-        }, 1000)
+            document.body.style.margin =0
+            document.body.style.padding =0
+
+        }, 200)
     }
 </script>
 </body>
