@@ -1,12 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.d6ef26fe.css",
-    "main.js": "./static/js/main.72d1b318.js",
-    "static/media/IRANSans(FaNum).ttf": "./static/media/IRANSans(FaNum).ac711e723735778509c6.ttf",
-    "index.html": "./index.html"
+    "main.css": "/static/css/main.51772d8f.chunk.css",
+    "main.js": "/static/js/main.1d11363c.chunk.js",
+    "main.js.map": "/static/js/main.1d11363c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aab67829.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aab67829.js.map",
+    "static/js/2.b9809783.chunk.js": "/static/js/2.b9809783.chunk.js",
+    "static/js/2.b9809783.chunk.js.map": "/static/js/2.b9809783.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.af4e952d4ae4bb85953d4e669054a9aa.js": "/precache-manifest.af4e952d4ae4bb85953d4e669054a9aa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.51772d8f.chunk.css.map": "/static/css/main.51772d8f.chunk.css.map",
+    "static/js/2.b9809783.chunk.js.LICENSE.txt": "/static/js/2.b9809783.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/css/main.d6ef26fe.css",
-    "static/js/main.72d1b318.js"
+    "static/js/runtime-main.aab67829.js",
+    "static/js/2.b9809783.chunk.js",
+    "static/css/main.51772d8f.chunk.css",
+    "static/js/main.1d11363c.chunk.js"
   ]
 }
