@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.metaphase.finalvpn",
+      "sha256_cert_fingerprints": [
+        "C9:74:75:25:63:F4:DD:11:9B:65:57:07:33:E0:39:09:E4:27:1D:56:3B:92:6E:3E:21:93:75:36:7F:67:A6:70"
+      ]
+    }
+  }
+]
