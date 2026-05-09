@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/panel/static/css/main.c111b426.css",
-    "main.js": "/panel/static/js/main.e7cd9061.js",
+    "main.js": "/panel/static/js/main.50b32ed5.js",
     "static/media/iransansnumfa.ttf": "/panel/static/media/iransansnumfa.ac711e723735778509c6.ttf",
     "index.html": "/panel/index.html"
   },
   "entrypoints": [
     "static/css/main.c111b426.css",
-    "static/js/main.e7cd9061.js"
+    "static/js/main.50b32ed5.js"
   ]
 }
