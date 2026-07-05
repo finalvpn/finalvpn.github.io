@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/panel/static/css/main.2fb53b82.css",
-    "main.js": "/panel/static/js/main.1bb6bd30.js",
+    "main.css": "/panel/static/css/main.a4e59dc8.css",
+    "main.js": "/panel/static/js/main.268943a5.js",
     "static/media/iransansnumfa.ttf": "/panel/static/media/iransansnumfa.ac711e723735778509c6.ttf",
     "index.html": "/panel/index.html"
   },
   "entrypoints": [
-    "static/css/main.2fb53b82.css",
-    "static/js/main.1bb6bd30.js"
+    "static/css/main.a4e59dc8.css",
+    "static/js/main.268943a5.js"
   ]
 }
