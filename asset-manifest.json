@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "./static/css/main.d6ef26fe.css",
-    "main.js": "./static/js/main.f1f9e4eb.js",
+    "main.js": "./static/js/main.c4b898d7.js",
     "static/media/IRANSans(FaNum).ttf": "./static/media/IRANSans(FaNum).ac711e723735778509c6.ttf",
     "index.html": "./index.html"
   },
   "entrypoints": [
     "static/css/main.d6ef26fe.css",
-    "static/js/main.f1f9e4eb.js"
+    "static/js/main.c4b898d7.js"
   ]
 }
